@@ -48,7 +48,10 @@
   - 支持集群消费和消息广播
   - 支持实时消息提交机制
 
+## GROUP ##
 
++ Product Group topic为一致的会在一个group里
++ Consumer Group 和Product Group类似
 
 
 
