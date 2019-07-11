@@ -1,4 +1,4 @@
-#redis 
+# redis #
 
 分布式锁
 
@@ -7,16 +7,16 @@
 - `setnx key value`
 -  返回1则表明成功，返回0则不成功，不成功则说明被锁占用          
 
-# RMQ
+# RMQ #
 
-## NamServer ##
+##  NamServer  ##
 
-- ##功能：
+- ## 功能：##
 
   - Broker 管理，从broker cluster接收注册，提供心跳确认broker还活着
   - 路由管理，每个nameServer会有所有路由信息包括broker集群和客户端的查询队列信息
 
-- ##特征：
+- ## 特征：##
 
   - 每个nameServer提供完整的路由信息
   - 每个nameServer提供相应的读写服务
